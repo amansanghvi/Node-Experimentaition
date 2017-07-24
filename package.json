@@ -1,0 +1,28 @@
+{
+  "name": "newsagency",
+  "version": "1.0.0",
+  "description": "k",
+  "main": "example.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chboblie/newsagency.git"
+  },
+  "keywords": [
+    "k"
+  ],
+  "author": "aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chboblie/newsagency/issues"
+  },
+  "homepage": "https://github.com/chboblie/newsagency#readme"
+}

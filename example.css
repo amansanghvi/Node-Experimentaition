@@ -1,8 +1,6 @@
-
-
-p {
-	color:red;
-	text-align: right;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
@@ -10,6 +8,17 @@ h1 {
 	text-align: center;
 
 }
+
+nav {
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-width: 0px 0px 5px 0px;
+	border-top: none;
+	background-color: #DDDDDD;
+}
+
 #title-left {
 
 	display: inline-block;
@@ -23,19 +32,8 @@ h1 {
 	margin: 0px 0px 0px 0px;
 }
 
-#title2 {
-	text-align: left;
-	font-size: 50px;
-	color: blue;
-
-}
-
-.blue {
-	color:blue;
-}
-
 #page {
-	background-color: #ff99bb;
+	background-color: #EEEEEE;
 	margin: 0px 0px 0px 0px;
 }
 
@@ -47,9 +45,61 @@ h1 {
 
 }
 
-#dog:hover {
-	width:60%;
-	height:40%;
-	left: 20%;
-	position: relative;   
+
+#navbar {
+	display: inline-block;
+}
+
+#nav-title {
+	font-family: Optima, "Century Gothic", CenturyGothic, Segoe, Arial, sans-serif;
+	font-size: 20px;
+	padding: 1% 1% 1% 0px;
+	margin-right: 1%;
+	border-right: 3px solid #AAAAAA;
+	width: 15%;
+}
+
+.tab {
+	display: inline-block;
+	margin: 15px 5px 15px 5px;
+	font-family: Optima, "Century Gothic", CenturyGothic, Segoe, Arial, sans-serif;
+}
+
+#first-tab {
+	margin: 15px 0px 15px 0px !important;
+}
+
+#form {
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+input {
+	display: inline-block;
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+}
+
+#submit {
+	border:none;
+	width:120px;
+	height: 45px;
+	border-radius: 8px;
+	background-color: #00b33c
+}
+
+#submit:hover {
+	box-shadow: 0px 0px 5px 5px #CCCCCC;
+}
+
+#user {
+	display: inline-block;
+	float:right;
+}
+
+#paragraph {
+	width: 26%;
+	border: 3px solid #AAAAAA;
+	margin-left: 37%;
 }
